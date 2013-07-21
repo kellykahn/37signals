@@ -137,3 +137,38 @@ q:before, q:after {
 	margin-top: 5px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+.bchover, .hrhover, .cfhover {
+	display: none; 
+	font-size: 20px; 
+
+}
+
+.main, .bchover, .hrhover, .cfhover {
+	height: 200px;
+}
+
+.hover {
+	text-decoration: underline;
+	color: #104E8B;
+
+}
+.arrowtobc {
+	position: relative;
+	right: -105px;
+	top: -240px;
+	display: none;
+}
+
+.arrowtohr {
+	position: relative;
+	left: 80px;
+	top: -240px;
+	display: none;
+}
+.arrowtocf{
+	position: relative;
+	right: 80px;
+	top: -240px; 
+	display: none;
+}
+
